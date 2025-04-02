@@ -2,4 +2,4 @@
 it=abdullah
 fl=/home/$USER/.zshrc
 echo "$it" >> "$fl"
-echo "Text has been written to $file_location"
+echo "Na Karna Khuxh"
