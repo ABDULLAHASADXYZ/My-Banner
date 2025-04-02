@@ -1,18 +1,5 @@
 #!/bin/bash
-
-# Prompt the user for input
-input_text=/home/$USER/My-Banner/abdullah
-
-# Prompt the user for the file location
-file_location=/home/$USER/.zshrc
-
-# Check if the file exists, if not, create it
-if [ ! -f "$file_location" ]; then
-    touch "$file_location"
-fi
-
-# Append the input text to the file
-echo "$input_text" >> "$file_location"
-
-# Notify the user
+it=abdullah
+fl=/home/$USER/.zshrc
+echo "$it" >> "$fl"
 echo "Text has been written to $file_location"
